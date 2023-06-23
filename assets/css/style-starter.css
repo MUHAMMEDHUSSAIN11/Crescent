@@ -255,28 +255,29 @@ img {
   }
 }
 
+/* Styles for devices up to 1024x1366 */
 @media (max-width: 1024px) and (max-height: 1366px) {
   .bg-image {
     background-position: center center !important;
-  }
-} 
-
- /* Specific Styles for iPad 810x1024 */ 
-@media (width: 810px) and (height: 1080px) {
-  .bg-image {
-    background-size: center !important;
+    background-size: cover !important;
   }
 }
 
+/* Specific Styles for iPad 810x1024 */
+@media (max-width: 810px) and (max-height: 1080px) {
+  .bg-image {
+    background-position: center center !important;
+    background-size: cover !important;
+  }
+}
+
+/* Specific Styles for smaller devices */
 @media (max-width: 480px) {
   .bg-image {
     background-position: center center !important;
+    background-size: cover !important;
   }
 }
-
-
-
-
 
 .map-container{
   overflow:hidden;
