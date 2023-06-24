@@ -238,6 +238,12 @@ img {
 }  
 /* Media Queries */
 @media (max-width: 768px) {
+    .bg-image {
+      background-size: cover;
+      background-position: center;
+    }
+
+  
   .hero-area {
       padding-top: 80px;
       padding-bottom: 80px;
